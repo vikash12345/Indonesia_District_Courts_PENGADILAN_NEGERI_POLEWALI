@@ -1,7 +1,7 @@
 <?
 require 		'scraperwiki.php';
 require 		'scraperwiki/simple_html_dom.php';
-for($page = 1; $page < 2 ; $page++)
+for($page = 1; $page < 500 ; $page++)
 	{
 $BaseLink	=	'http://sipp.pn-polewali.go.id/list_perkara/page/'.$page;
 $Html		=	file_get_html($BaseLink);
